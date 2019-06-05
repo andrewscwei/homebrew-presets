@@ -27,6 +27,10 @@ brew "jq"
 brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# Libraries for security-enabled client and server applications
+brew "nss"
 # Manage multiple Node.js versions
 brew "nvm"
 # Python dependency management tool
