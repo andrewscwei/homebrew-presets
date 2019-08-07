@@ -1,8 +1,10 @@
+tap "dart-lang/dart"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
+tap "sass/sass"
 # Decentralized dependency manager for Cocoa
 brew "carthage"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
@@ -70,5 +72,7 @@ cask "minikube"
 cask "netspot"
 cask "postman"
 cask "qmk-toolbox"
+cask "telegram"
 cask "transmit"
+cask "vagrant"
 cask "visual-studio-code"
