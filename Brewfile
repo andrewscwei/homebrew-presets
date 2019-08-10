@@ -4,7 +4,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
-tap "sass/sass"
 # Decentralized dependency manager for Cocoa
 brew "carthage"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
