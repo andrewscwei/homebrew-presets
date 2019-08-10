@@ -7,7 +7,6 @@
 $ ./export.sh
 
 # Import settings from repo
-
 $ ./import.sh
 ```
 
