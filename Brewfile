@@ -28,6 +28,8 @@ brew "jq"
 brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
+# The Kubernetes package manager
+brew "kubernetes-helm"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Libraries for security-enabled client and server applications
@@ -71,6 +73,7 @@ cask "minikube"
 cask "netspot"
 cask "postman"
 cask "qmk-toolbox"
+cask "sony-ps4-remote-play"
 cask "telegram"
 cask "transmit"
 cask "vagrant"
