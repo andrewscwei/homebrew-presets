@@ -32,6 +32,8 @@ brew "kubernetes-cli"
 brew "kubernetes-helm"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
+# Port scanning utility for large networks
+brew "nmap"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Manage multiple Node.js versions
