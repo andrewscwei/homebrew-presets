@@ -16,6 +16,8 @@ brew "cloc"
 brew "dfu-util"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Distributed revision control system
+brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
@@ -35,7 +37,7 @@ brew "mkcert"
 # Port scanning utility for large networks
 brew "nmap"
 # Libraries for security-enabled client and server applications
-brew "nss"
+brew "nss", link: false
 # Manage multiple Node.js versions
 brew "nvm"
 # Python dependency management tool
@@ -59,7 +61,6 @@ cask "blender"
 cask "brave-browser"
 cask "dash"
 cask "dashlane"
-cask "discord"
 cask "docker"
 cask "expressvpn"
 cask "figma"
@@ -77,6 +78,7 @@ cask "netspot"
 cask "postman"
 cask "qmk-toolbox"
 cask "sony-ps4-remote-play"
+cask "spotify"
 cask "telegram"
 cask "tor-browser"
 cask "transmit"
