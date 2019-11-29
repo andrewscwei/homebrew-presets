@@ -4,6 +4,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
+# Next-generation aircrack with lots of new features
+brew "aircrack-ng"
 # Decentralized dependency manager for Cocoa
 brew "carthage"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
@@ -32,12 +34,14 @@ brew "kompose"
 brew "kubernetes-cli"
 # The Kubernetes package manager
 brew "kubernetes-helm"
+# Run a Kubernetes cluster locally
+brew "minikube"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Port scanning utility for large networks
 brew "nmap"
 # Libraries for security-enabled client and server applications
-brew "nss", link: false
+brew "nss"
 # Manage multiple Node.js versions
 brew "nvm"
 # Python dependency management tool
@@ -50,8 +54,6 @@ brew "terraform"
 brew "watchman"
 # Internet file retriever
 brew "wget"
-# JavaScript package manager
-brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Everything you need to get started with Heroku
@@ -66,7 +68,6 @@ cask "expressvpn"
 cask "figma"
 cask "firefox"
 cask "google-backup-and-sync"
-cask "google-chrome"
 cask "google-cloud-sdk"
 cask "iterm2"
 cask "kiibohd-configurator"
@@ -78,9 +79,9 @@ cask "netspot"
 cask "postman"
 cask "qmk-toolbox"
 cask "sony-ps4-remote-play"
-cask "spotify"
 cask "telegram"
 cask "tor-browser"
 cask "transmit"
 cask "vagrant"
 cask "visual-studio-code"
+cask "zeplin"
