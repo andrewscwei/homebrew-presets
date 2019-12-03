@@ -24,6 +24,8 @@ brew "git"
 brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# The Kubernetes package manager
+brew "helm"
 # Migrate or backup IMAP mail accounts
 brew "imapsync"
 # Lightweight and flexible command-line JSON processor
@@ -32,8 +34,6 @@ brew "jq"
 brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# The Kubernetes package manager
-brew "kubernetes-helm"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Simple tool to make locally trusted development certificates
@@ -58,6 +58,7 @@ brew "wget"
 brew "zsh"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
+cask "android-file-transfer"
 cask "android-studio"
 cask "blender"
 cask "brave-browser"
