@@ -16,6 +16,10 @@ brew "circleci"
 brew "cloc"
 # USB programmer
 brew "dfu-util"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Programming language for highly scalable real-time systems
+brew "erlang"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Distributed revision control system
@@ -35,7 +39,7 @@ brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 # Run a Kubernetes cluster locally
-brew "minikube"
+brew "minikube", link: false
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Port scanning utility for large networks
@@ -46,8 +50,6 @@ brew "nss"
 brew "nvm"
 # Python dependency management tool
 brew "pipenv"
-# Persistent key-value database, with built-in net interface
-brew "redis"
 # Tool to build, change, and version infrastructure
 brew "terraform"
 # Watch files and take action when they change
@@ -76,6 +78,7 @@ cask "ksdiff"
 cask "logitech-options"
 cask "miniconda"
 cask "minikube"
+cask "musescore"
 cask "netspot"
 cask "postman"
 cask "qmk-toolbox"
