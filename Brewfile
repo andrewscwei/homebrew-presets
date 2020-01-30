@@ -32,14 +32,14 @@ brew "go"
 brew "helm"
 # Migrate or backup IMAP mail accounts
 brew "imapsync"
-# GNU utilities for networking
-brew "inetutils"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Tool to move from `docker-compose` to Kubernetes
 brew "kompose"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
+# Sophisticated file transfer program
+brew "lftp"
 # Run a Kubernetes cluster locally
 brew "minikube", link: false
 # Simple tool to make locally trusted development certificates
