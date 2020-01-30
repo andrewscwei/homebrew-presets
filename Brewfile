@@ -32,6 +32,8 @@ brew "go"
 brew "helm"
 # Migrate or backup IMAP mail accounts
 brew "imapsync"
+# GNU utilities for networking
+brew "inetutils"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Tool to move from `docker-compose` to Kubernetes
