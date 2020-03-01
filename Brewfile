@@ -62,7 +62,6 @@ brew "wget"
 brew "zsh"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
-cask "android-file-transfer"
 cask "android-studio"
 cask "blender"
 cask "brave-browser"
