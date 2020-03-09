@@ -6,22 +6,22 @@ tap "homebrew/cask-drivers"
 tap "homebrew/core"
 # Next-generation aircrack with lots of new features
 brew "aircrack-ng"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Decentralized dependency manager for Cocoa
 brew "carthage"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
-# Enables you to reproduce the CircleCI environment locally
-brew "circleci"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Statistics utility to count lines of code
 brew "cloc"
 # USB programmer
 brew "dfu-util"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Programming language for highly scalable real-time systems
 brew "erlang"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
@@ -41,11 +41,13 @@ brew "kubernetes-cli"
 # Sophisticated file transfer program
 brew "lftp"
 # Run a Kubernetes cluster locally
-brew "minikube", link: false
+brew "minikube"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Port scanning utility for large networks
 brew "nmap"
+# Platform built on V8 to build network applications
+brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Manage multiple Node.js versions
