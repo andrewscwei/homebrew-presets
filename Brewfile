@@ -4,10 +4,9 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
+cask "xquartz"
 # Next-generation aircrack with lots of new features
 brew "aircrack-ng"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Decentralized dependency manager for Cocoa
 brew "carthage"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
@@ -19,13 +18,15 @@ brew "cloc"
 # USB programmer
 brew "dfu-util"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Programming language for highly scalable real-time systems
 brew "erlang"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
+# Alternative to top/htop
+brew "glances"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # The Kubernetes package manager
@@ -40,8 +41,10 @@ brew "kompose"
 brew "kubernetes-cli"
 # Sophisticated file transfer program
 brew "lftp"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Run a Kubernetes cluster locally
-brew "minikube"
+brew "minikube", link: false
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Port scanning utility for large networks
@@ -87,7 +90,6 @@ cask "musescore"
 cask "postman"
 cask "qmk-toolbox"
 cask "retroarch"
-cask "sony-ps4-remote-play"
 cask "telegram"
 cask "tor-browser"
 cask "transmit"
