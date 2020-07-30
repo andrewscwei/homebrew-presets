@@ -10,8 +10,8 @@ cask "xquartz"
 brew "aircrack-ng"
 # Generic-purpose lossless compression algorithm by Google
 brew "brotli"
-# Decentralized dependency manager for Cocoa
-brew "carthage"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # H.264/AVC encoder
@@ -42,8 +42,6 @@ brew "glances"
 brew "go"
 # Image manipulation
 brew "netpbm"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # The Kubernetes package manager
