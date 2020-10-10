@@ -4,6 +4,7 @@ tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 cask "xquartz"
 # Next-generation aircrack with lots of new features
@@ -44,7 +45,7 @@ brew "go"
 brew "netpbm"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# The Kubernetes package manager
+# Kubernetes package manager
 brew "helm"
 # Migrate or backup IMAP mail accounts
 brew "imapsync"
@@ -72,6 +73,8 @@ brew "nss"
 brew "nvm"
 # H.264 codec from Cisco
 brew "openh264"
+# Development kit for the Java programming language
+brew "openjdk"
 # Python dependency management tool
 brew "pipenv"
 # Tool to build, change, and version infrastructure
@@ -86,7 +89,6 @@ brew "zsh"
 brew "getsentry/tools/sentry-cli"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
-cask "android-file-transfer"
 cask "android-studio"
 cask "blender"
 cask "brave-browser"
