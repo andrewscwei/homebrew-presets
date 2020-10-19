@@ -11,8 +11,6 @@ cask "xquartz"
 brew "aircrack-ng"
 # Generic-purpose lossless compression algorithm by Google
 brew "brotli"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # H.264/AVC encoder
@@ -41,6 +39,8 @@ brew "git-lfs"
 brew "glances"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Library for manipulating JPEG-2000 images
+brew "jasper"
 # Image manipulation
 brew "netpbm"
 # Graph visualization software from AT&T and Bell Labs
@@ -59,14 +59,20 @@ brew "kompose"
 brew "kubernetes-cli"
 # Sophisticated file transfer program
 brew "lftp"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# C library SSHv1/SSHv2 client and server protocols
+brew "libssh"
+# YAML Parser
+brew "libyaml"
 # Run a Kubernetes cluster locally
 brew "minikube", link: false
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
+# Netwide Assembler (NASM) is an 80x86 assembler
+brew "nasm"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
-brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
 # Manage multiple Node.js versions
@@ -83,6 +89,10 @@ brew "terraform"
 brew "watchman"
 # Internet file retriever
 brew "wget"
+# High-performance, asynchronous messaging library
+brew "zeromq"
+# Scaling, colorspace conversion, and dithering library
+brew "zimg"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Sentry command-line client for some generic tasks
@@ -98,7 +108,6 @@ cask "docker"
 cask "expressvpn"
 cask "figma"
 cask "firefox"
-cask "google-backup-and-sync"
 cask "google-cloud-sdk"
 cask "google-drive-file-stream"
 cask "handbrake"
