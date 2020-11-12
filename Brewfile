@@ -6,11 +6,12 @@ tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-cask "xquartz"
 # Next-generation aircrack with lots of new features
 brew "aircrack-ng"
 # Generic-purpose lossless compression algorithm by Google
 brew "brotli"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # H.264/AVC encoder
@@ -24,7 +25,7 @@ brew "cloc"
 # USB programmer
 brew "dfu-util"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Programming language for highly scalable real-time systems
 brew "erlang"
 # Toolkit for image loading and pixel buffer manipulation
@@ -43,12 +44,16 @@ brew "go"
 brew "jasper"
 # Image manipulation
 brew "netpbm"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Kubernetes package manager
 brew "helm"
 # Migrate or backup IMAP mail accounts
 brew "imapsync"
+# Image loading and rendering library
+brew "imlib2"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
@@ -66,7 +71,7 @@ brew "libssh"
 # YAML Parser
 brew "libyaml"
 # Run a Kubernetes cluster locally
-brew "minikube", link: false
+brew "minikube"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Netwide Assembler (NASM) is an 80x86 assembler
@@ -119,9 +124,9 @@ cask "miniconda"
 cask "minikube"
 cask "musescore"
 cask "postman"
-cask "retroarch"
+cask "prusaslicer"
 cask "telegram"
 cask "tor-browser"
 cask "transmit"
-cask "ultimaker-cura"
 cask "visual-studio-code"
+cask "xquartz"
