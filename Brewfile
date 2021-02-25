@@ -116,6 +116,8 @@ cask "blender"
 cask "brave-browser"
 # API documentation browser and code snippet manager
 cask "dash"
+# Voice and text chat software
+cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 # VPN client for secure internet access and private browsing
